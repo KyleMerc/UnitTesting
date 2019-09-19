@@ -1,0 +1,20 @@
+{
+    "name": "n-153/oop-demo",
+    "description": "Unit testing",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Kyle Mercado",
+            "email": "kyle.mercado@fullspeedtechnologies.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^7.5",
+        "squizlabs/php_codesniffer": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    }
+}
